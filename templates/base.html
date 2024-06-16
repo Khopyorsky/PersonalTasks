@@ -1,11 +1,31 @@
+{%  load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/tasks.css' %}" rel="stylesheet">
 </head>
 <body>
+    <div id="content">
     {% block content %}
     {% endblock content %}
+    </div>
+
+    <div id="sidebar">
+        {% if user.is_authenticated %}
+            <p>{{ user.last_name }} {{ user.first_name }}</p>
+            <form method="post" action="{%  url 'users:logout' %}">
+                {% csrf_token %}
+                <a href="#" onclick="parentNode.submit();">log out</a>
+            </form>
+            <p><a href="{% url 'tasks:add_task' %}">Add new task</a></p>
+        {% else %}
+            <p>
+            You should <a href="{% url 'users:login' %}">log in</a> or
+            <a href="{%  url 'users:signup' %}">sign up</a>.
+            </p>
+        {% endif %}
+    </div>
 </body>
 </html>

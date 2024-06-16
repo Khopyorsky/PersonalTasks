@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}{{ task.name }}{% endblock title %}
+{% block content %}
+    <h1>{{ task.name }}</h1>
+    <p>{{ task.detailed_descr }}</p>
+    <h1>{{ task.created_by }}</h1>
+    {% for p in task.performers.all %}
+         <p>{{ p }}</p>
+    {% endfor %}
+{% endblock content %}
