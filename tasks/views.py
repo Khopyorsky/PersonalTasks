@@ -1,8 +1,11 @@
 from django.contrib.auth import get_user_model
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.views.generic import ListView, CreateView, DetailView, UpdateView
+from django.shortcuts import get_object_or_404
+from django.urls import reverse_lazy
+from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
 from .models import Task
 from .forms import TaskForm
+from taggit.models import Tag
 
 
 class TasksListView(LoginRequiredMixin, ListView):
@@ -10,8 +13,21 @@ class TasksListView(LoginRequiredMixin, ListView):
     template_name = 'tasks/show_tasks.html'
     context_object_name = 'tasks'
 
+    tag = None
+
     def get_queryset(self):
+        tag_slug = self.kwargs.get('tag_slug')
+        if tag_slug:
+            tag = get_object_or_404(Tag, slug=tag_slug)
+            self.tag = tag
+            return Task.objects.filter(tags=self.tag, performers=self.request.user)
         return self.model.objects.filter(performers=self.request.user)
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(TasksListView, self).get_context_data(object_list=object_list, **kwargs)
+        if self.tag:
+            context['tag'] = self.tag
+        return context
 
 
 class AddTaskView(LoginRequiredMixin, CreateView):
@@ -41,6 +57,15 @@ class UpdateTaskView(LoginRequiredMixin, UpdateView):
 
 
 class TaskView(LoginRequiredMixin, DetailView):
+    model = Task
     template_name = 'tasks/task.html'
     slug_url_kwarg = 'task_slug'
     context_object_name = 'task'
+
+
+class DeleteTaskView(LoginRequiredMixin, DeleteView):
+    model = Task
+    slug_url_kwarg = 'task_slug'
+    context_object_name = 'task'
+    template_name = 'tasks/confirm_delete.html'
+    success_url = reverse_lazy('tasks:tasks')

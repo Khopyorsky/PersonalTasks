@@ -2,10 +2,13 @@ from django.contrib.auth import get_user_model
 from django.core.exceptions import ValidationError
 from django.db import models
 from django.urls import reverse
-
+from taggit.managers import TaggableManager
+from taggit.models import TagBase, Tag, ItemBase
 
 from datetime import date, datetime
 import transliterate
+
+
 
 
 class Task(models.Model):
@@ -30,6 +33,7 @@ class Task(models.Model):
     performers = models.ManyToManyField(get_user_model(),
                                         related_name='tasks',
                                         related_query_name='task')
+    tags = TaggableManager(blank=True, related_name='tasks')
 
     objects = models.Manager()
 
@@ -43,11 +47,11 @@ class Task(models.Model):
         return f'{self.name}: {self.detailed_descr[:10] if self.detailed_descr else ""}'
 
     def get_absolute_url(self):
-        return reverse('tasks:task_page', args=[self.slug])
+        return reverse('tasks:tasks:page', args=[self.slug])
 
     def save(self, *args, **kwargs):
         self.slug = transliterate.slugify(self.name) or self.name.lower().replace(' ', '-')
-        count = Task.objects.filter(slug=self.slug).count()
+        count = Task.objects.exclude(pk=self.pk).filter(slug=self.slug).count()
         self.slug += str(count) if count else ''
 
         if self.time_to_finish and self.time_to_finish.date() < date.today():

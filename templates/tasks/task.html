@@ -1,10 +1,25 @@
 {% extends 'base.html' %}
+{% load task_tags %}
 {% block title %}{{ task.name }}{% endblock title %}
 {% block content %}
     <h1>{{ task.name }}</h1>
-    <p>{{ task.detailed_descr }}</p>
-    <h1>{{ task.created_by }}</h1>
-    {% for p in task.performers.all %}
-         <p>{{ p }}</p>
-    {% endfor %}
+    <p class="date">{% info task %}</p>
+    {% if task.tags.exists %}
+        <p class="tags">
+            {% for tag in task.tags.all %}
+                <a href="{% url 'tasks:tag' tag.slug %}">#{{ tag.name }}</a>
+                {% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+    {% endif %}
+    <p class="content">
+        {{ task.detailed_descr }}
+    </p>
+    <p class="date">Performers: {{ task.performers.all|_join }}</p>
+    {% if user == task.created_by %}
+        <p class="button">
+            <a href="{% url 'tasks:tasks:update' task.slug %}">Update</a>
+            <a href="{% url 'tasks:tasks:delete' task.slug %}">Delete</a>
+        </p>
+    {% endif %}
 {% endblock content %}

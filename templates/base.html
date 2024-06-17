@@ -15,11 +15,12 @@
     <div id="sidebar">
         {% if user.is_authenticated %}
             <p>{{ user.last_name }} {{ user.first_name }}</p>
+            <p><a href="{% url 'tasks:tasks' %}">My Tasks</a></p>
+            <p><a href="{% url 'tasks:add_task' %}">Add Task</a></p>
             <form method="post" action="{%  url 'users:logout' %}">
                 {% csrf_token %}
-                <a href="#" onclick="parentNode.submit();">log out</a>
+                <a href="#" onclick="parentNode.submit();">Logout</a>
             </form>
-            <p><a href="{% url 'tasks:add_task' %}">Add new task</a></p>
         {% else %}
             <p>
             You should <a href="{% url 'users:login' %}">log in</a> or

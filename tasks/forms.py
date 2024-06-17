@@ -18,7 +18,8 @@ class TaskForm(forms.ModelForm):
             'detailed_descr',
             'in_progress',
             'time_to_finish',
-            'performers'
+            'performers',
+            'tags'
         ]
 
     def __init__(self, *args, **kwargs):
@@ -28,5 +29,6 @@ class TaskForm(forms.ModelForm):
             self.fields['performers'].queryset = get_user_model().objects.exclude(pk=user.pk)
         else:
             self.fields['performers'].queryset = get_user_model().objects.all()
+        self.fields['performers'].label_from_instance = lambda obj: f"{obj.first_name} {obj.last_name}"
 
 
