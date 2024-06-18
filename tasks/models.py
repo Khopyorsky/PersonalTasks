@@ -9,8 +9,6 @@ from datetime import date, datetime
 import transliterate
 
 
-
-
 class Task(models.Model):
     class Status(models.TextChoices):
         IN_PROGRESS = 'PROG', 'In progress'

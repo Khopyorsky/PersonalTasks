@@ -1,0 +1,2101 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-14T15:01:50.914Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "khopyorsky",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-17T16:00:22.441Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "username1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-06-17T16:00:26.930Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "username2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-06-17T16:53:45.447Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "95",
+    "object_repr": "Делай по одной характерной фотографии в месяц: Воспоминан",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-06-17T16:53:48.583Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "95",
+    "object_repr": "Делай по одной характерной фотографии в месяц: Воспоминан",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-06-17T16:55:23.376Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "94",
+    "object_repr": "Напиши историю своей жизни: Начни писа",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-06-17T16:55:31.584Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "93",
+    "object_repr": "Найди добрые слова: Для себя, ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-06-17T16:55:40.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "92",
+    "object_repr": "Позаботься о своем здоровье и пройди диспансеризацию: Чаще всего",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-06-17T16:55:50.093Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "91",
+    "object_repr": "Создай специальный список для книг: Включи в н",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-06-17T16:56:03.714Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "90",
+    "object_repr": "Учи стихотворения или песни: Кроме того",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-06-17T16:57:36.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "89",
+    "object_repr": "Новое образование: Самое врем",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-06-17T16:57:45.437Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "88",
+    "object_repr": "Побалуй себя: Сходи на м",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-06-17T16:57:53.178Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "87",
+    "object_repr": "Научись готовить 16 новых блюд: У тебя ест",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-06-17T16:58:07.667Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "86",
+    "object_repr": "Научись готовить 16 новых блюд: У тебя ест",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-06-17T16:58:21.621Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "85",
+    "object_repr": "Наведи порядок в гаджетах: Знакомое ч",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-06-17T16:58:27.378Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "84",
+    "object_repr": "Хорошенько высыпайся: Очень нужн",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-06-17T16:58:38.935Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "83",
+    "object_repr": "Сделай доску вдохновения: Размести е",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-06-17T16:58:53.172Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82",
+    "object_repr": "Сыграй в игру детства: Как насчет",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-06-17T16:59:05.387Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "81",
+    "object_repr": "Отдай все, чем ты не пользуешься и точно не будешь пользоваться тем, кому это нужно.: Если в шка",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-06-17T16:59:25.643Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "80",
+    "object_repr": "Найди свое вдохновение: Наверное, ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-06-17T16:59:44.762Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "79",
+    "object_repr": "Новый сезон- новый вид активного отдыха: Тут все оч",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-06-17T16:59:57.857Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "78",
+    "object_repr": "Научись играть на музыкальном инструменте: Выбирай то",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-06-17T17:00:11.953Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "77",
+    "object_repr": "Напиши письма незнакомым людям: Помнишь кн",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-06-17T17:00:20.671Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "76",
+    "object_repr": "Брось вредную привычку: Курить, гр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-06-17T17:00:29.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "75",
+    "object_repr": "Составь семейное древо: Это очень ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-06-17T17:00:36.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "74",
+    "object_repr": "Изучи историю страны: Выбирай ст",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-06-17T17:00:44.214Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "73",
+    "object_repr": "Научись делать что-то, что кажется невозможным: Не понимае",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-06-17T17:00:55.327Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "72",
+    "object_repr": "Открой для себя новые блюда: Консервати",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-06-17T17:01:04.349Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "71",
+    "object_repr": "Гуляй по нетуристическим местам своего города: Кажется, ч",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-06-17T17:01:14.835Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "70",
+    "object_repr": "Йога: Если ты хо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add task",
+    "content_type": 7,
+    "codename": "add_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change task",
+    "content_type": 7,
+    "codename": "change_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete task",
+    "content_type": 7,
+    "codename": "delete_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view task",
+    "content_type": 7,
+    "codename": "view_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 8,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 8,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 8,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 8,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 9,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 9,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 9,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 9,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add custom tagged item",
+    "content_type": 10,
+    "codename": "add_customtaggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change custom tagged item",
+    "content_type": 10,
+    "codename": "change_customtaggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete custom tagged item",
+    "content_type": 10,
+    "codename": "delete_customtaggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view custom tagged item",
+    "content_type": 10,
+    "codename": "view_customtaggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add custom tag",
+    "content_type": 11,
+    "codename": "add_customtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change custom tag",
+    "content_type": 11,
+    "codename": "change_customtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete custom tag",
+    "content_type": 11,
+    "codename": "delete_customtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view custom tag",
+    "content_type": 11,
+    "codename": "view_customtag"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$wLVz5TpfOPITOIFD8fJ7Kx$gPM82DRSGlA7vLgcW8Kkrbdn96DVYne2Q8vVGCv+Kk8=",
+    "last_login": "2024-06-18T10:19:21.954Z",
+    "is_superuser": true,
+    "username": "khopyorsky",
+    "first_name": "Sergey",
+    "last_name": "Khopyorsky",
+    "email": "sergeykhopyorsky@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-06-14T14:09:37Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$QKDjFLsG8MsxdiQGy7HP5E$qSho5RdHIKexUWjexPJ17dt5w+Z0WXmTSN1g9wgmzTU=",
+    "last_login": "2024-06-17T17:04:25.120Z",
+    "is_superuser": false,
+    "username": "AnnaIvanova",
+    "first_name": "Anna",
+    "last_name": "Ivanova",
+    "email": "AnnaIvanova@yandex.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T16:01:24.055Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$SPFYaV6I81LoVtbeRgtafQ$hZI3s8ZCwR9InNgHsooiBRrPuQmXz+fMINOAn+Q/ciA=",
+    "last_login": "2024-06-17T16:25:53.539Z",
+    "is_superuser": false,
+    "username": "PetrDrozdov",
+    "first_name": "Petr",
+    "last_name": "Drozdov",
+    "email": "PetrDrozdov@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T16:02:10.167Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$2BevIGgWhd8UE2sI1Re4dQ$nNXGEwV4lqNzuQ+9/q2+RwcgsS3uEO3kGiRVfmQuB48=",
+    "last_login": "2024-06-17T16:17:06.406Z",
+    "is_superuser": false,
+    "username": "Andrej_Kluev1985",
+    "first_name": "Andrej",
+    "last_name": "Kluev",
+    "email": "goida@ya.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T16:03:13.667Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$9Ezz1MrZtFmknF11YLL7n9$Zzfs02J3ui2RuBpq2zm2D/O+k627ZWVePF1k895/FPs=",
+    "last_login": "2024-06-17T16:24:21.861Z",
+    "is_superuser": false,
+    "username": "natali",
+    "first_name": "Natalia",
+    "last_name": "Dubova",
+    "email": "prettyeyes@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T16:05:23.064Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "tasks",
+    "model": "task"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "tasks",
+    "model": "customtaggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "tasks",
+    "model": "customtag"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cll8v4rw2d9t63aytmg8b1mkbmwdd1a3",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDMMFNw6d4zkIEBqRqalHbVeHdt0oVu_3vvbyrwutSw9jyHUdRFndXpd4ucnrntQB7c7pNOU1vmMepd0Qft-jZJfl0P9--gcq_f2noYAFyx3iJ4ww4JCwCQgDPIhOwdASM5iSmTAQPZGpISWSwOrN4fnsU2wg:1sJVvt:nTC2T2Wl8hid0Tsj8Gq7iBgErHTM_CIiJnRULg5YyFc",
+    "expire_date": "2024-07-02T10:19:21.956Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jwdh07z3d92f0xj239k48k3cpssysd34",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDMMFNw6d4zkIEBqRqalHbVeHdt0oVu_3vvbyrwutSw9jyHUdRFndXpd4ucnrntQB7c7pNOU1vmMepd0Qft-jZJfl0P9--gcq_f2noYAFyx3iJ4ww4JCwCQgDPIhOwdASM5iSmTAQPZGpISWSwOrN4fnsU2wg:1sJDOF:yDqysmomJHiuEyttwH7YgO4PCARhXEmQP9bc8X_iNuY",
+    "expire_date": "2024-07-01T14:31:23.396Z"
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 70,
+  "fields": {
+    "name": "Йога",
+    "detailed_descr": "Если ты хочешь обрести гармонию и иметь красивое, стройное тело- этот вариант идеально подойдет. Йога поднимает наше настроение, улучшает здоровье и поддерживает тело в тонусе.",
+    "slug": "joga",
+    "in_progress": "PROG",
+    "created_by": 1,
+    "time_created": "2024-06-17T16:11:03.369Z",
+    "time_updated": "2024-06-17T17:01:14.822Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 71,
+  "fields": {
+    "name": "Гуляй по нетуристическим местам своего города",
+    "detailed_descr": "Кажется, что знаешь каждую улочку в родном городе?\r\nА проверь, правда ли это? Прокатись на трамвае вечером, любуясь иллюминацией, прогуляйся по центральным улицам ранним утром, посети музеи, выставки, театры, узнай историю и полюби свой город еще больше!",
+    "slug": "guljaj-po-neturisticheskim-mestam-svoego-goroda",
+    "in_progress": "PROG",
+    "created_by": 1,
+    "time_created": "2024-06-17T16:11:26.995Z",
+    "time_updated": "2024-06-17T17:01:04.338Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 72,
+  "fields": {
+    "name": "Открой для себя новые блюда",
+    "detailed_descr": "Консерватизм это всегда уютно и безопасно, но как насчет того, чтобы побаловать себя тайской лапшой или попробовать эскимосский чай из багульника?\r\nЗвучит неожиданно, да? А вдруг еще и вкусно?;)",
+    "slug": "otkroj-dlja-sebja-novye-bljuda",
+    "in_progress": "PROG",
+    "created_by": 1,
+    "time_created": "2024-06-17T16:12:21.125Z",
+    "time_updated": "2024-06-17T17:00:55.314Z",
+    "time_to_finish": "2026-03-06T00:00:00Z",
+    "performers": [
+      1,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 73,
+  "fields": {
+    "name": "Научись делать что-то, что кажется невозможным",
+    "detailed_descr": "Не понимаешь, как люди ходят по канату, катаются на велосипеде с одним колесом или метают ножи с закрытыми глазами?\r\nА мы знаем, что ты сможешь так же! По крайней мере, что тебе мешает попробовать?\r\n(хотя ножи все же лучше взять пластиковые;)",
+    "slug": "nauchis-delat-chto-to-chto-kazhetsja-nevozmozhnym",
+    "in_progress": "PROG",
+    "created_by": 1,
+    "time_created": "2024-06-17T16:16:25.396Z",
+    "time_updated": "2024-06-17T17:41:47.387Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 74,
+  "fields": {
+    "name": "Изучи историю страны",
+    "detailed_descr": "Выбирай страну, о которой хочется узнать побольше интересного и вперед. Необязательно читать статьи в Википедии, можно смотреть документальные фильмы или сериалы, снятые в этой стране, изучать искусство по произведениям великих писателей и художников, а так же завести себе новых друзей иностранцев и узнать все из первых уст.",
+    "slug": "izuchi-istoriju-strany",
+    "in_progress": "PROG",
+    "created_by": 1,
+    "time_created": "2024-06-17T16:16:57.706Z",
+    "time_updated": "2024-06-17T17:40:17.274Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 75,
+  "fields": {
+    "name": "Составь семейное древо",
+    "detailed_descr": "Это очень серьезное и достаточно длительное дело, но, без сомненья важное и увлекательное.\r\nТы не только проведешь вечера в уютной компании своих родных за разговорами о вашей семье, но и узнаешь много нового и невероятно интересного.\r\nМожно сделать это хорошей традицией и передать созданный альбом с древом и историями своим детям, чтобы они продолжали заполнять красивые страницы.",
+    "slug": "sostav-semejnoe-drevo",
+    "in_progress": "PROG",
+    "created_by": 6,
+    "time_created": "2024-06-17T16:22:30.121Z",
+    "time_updated": "2024-06-17T17:00:29.232Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 76,
+  "fields": {
+    "name": "Брось вредную привычку",
+    "detailed_descr": "Курить, грызть ногти, опаздывать, забывать перезванивать, оставлять все на завтра, недооценивать себя, поздно ложиться спать и плохо кушать.\r\nТебе все это не нужно, поверь.",
+    "slug": "bros-vrednuju-privychku",
+    "in_progress": "PROG",
+    "created_by": 6,
+    "time_created": "2024-06-17T16:23:09.069Z",
+    "time_updated": "2024-06-17T17:00:20.659Z",
+    "time_to_finish": "2026-02-04T00:00:00Z",
+    "performers": [
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 77,
+  "fields": {
+    "name": "Напиши письма незнакомым людям",
+    "detailed_descr": "Помнишь книгу или фильм \"Хорошо быть тихоней\"?\r\nПопробуй писать письма, подобно главному герою.\r\nЕсли страшно- оставь неверный обратный адрес.\r\nНапиши обо всем, что тебя волнует и чем хочется поделиться.\r\nКак знать, может быть ты найдешь нового друга;)",
+    "slug": "napishi-pisma-neznakomym-ljudjam",
+    "in_progress": "PROG",
+    "created_by": 6,
+    "time_created": "2024-06-17T16:23:30.007Z",
+    "time_updated": "2024-06-17T17:00:11.944Z",
+    "time_to_finish": null,
+    "performers": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 78,
+  "fields": {
+    "name": "Научись играть на музыкальном инструменте",
+    "detailed_descr": "Выбирай то, что тебе по душе. Если не знаешь, на чем остановиться, советуем выбрать бубуен или губную гармошку.\r\nТочно будет весело;)",
+    "slug": "nauchis-igrat-na-muzykalnom-instrumente",
+    "in_progress": "PROG",
+    "created_by": 6,
+    "time_created": "2024-06-17T16:23:59.874Z",
+    "time_updated": "2024-06-17T16:59:57.849Z",
+    "time_to_finish": null,
+    "performers": [
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 79,
+  "fields": {
+    "name": "Новый сезон- новый вид активного отдыха",
+    "detailed_descr": "Тут все очень просто:\r\nзимой добейся совершенства в катании на льду и изучи пару поддержек (главное выбрать надежного партнера);\r\nвесной- радуйся асфальту и теплому солнышку, рассекая по набережным на роликах или лонгборде;\r\nлетомосвой новый стиль плавания или собери все ракушки с морского дна, задерживая дыхание на рекордное время,\r\nа осенью отправляйся изучать окрестности на велосипеде и составь свою личную карту самых интересных мест!",
+    "slug": "novyj-sezon-novyj-vid-aktivnogo-otdyha",
+    "in_progress": "PROG",
+    "created_by": 6,
+    "time_created": "2024-06-17T16:24:13.613Z",
+    "time_updated": "2024-06-17T16:59:44.751Z",
+    "time_to_finish": null,
+    "performers": [
+      6
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 80,
+  "fields": {
+    "name": "Найди свое вдохновение",
+    "detailed_descr": "Наверное, это будет самый сложный пункт, но при этом и самый приятный. Отправляйся на поиски музы прямо сейчас!\r\nОглянись и подумай: что заставляет тебя творить?\r\nЕсли ответ сразу не приходит в голову, поищи его на просторах Интернета, в ближайшем кафе, в разговорах с друзьями, любимой песне или творчестве других людей!\r\nА когда найдешь- держи покрепче и вперед- творить!",
+    "slug": "najdi-svoe-vdohnovenie",
+    "in_progress": "PROG",
+    "created_by": 7,
+    "time_created": "2024-06-17T16:24:39.224Z",
+    "time_updated": "2024-06-17T16:59:25.634Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 81,
+  "fields": {
+    "name": "Отдай все, чем ты не пользуешься и точно не будешь пользоваться тем, кому это нужно.",
+    "detailed_descr": "Если в шкафах аккуратной стопочкой лежат новые вещи с бирочками, которые не подошли тебе по размеру, можно отнести эту стопочку в благотворительный фонд или детский дом.\r\nТак же можно устроить \"гаражную распродажу\" (в русском варианте подойдет и подъезд).\r\nТорговлю, конечно же, заменяем яркой табличкой \"отдаю даром\" и радуем соседей прочитанными книгами, мягкими игрушками, клетками для птиц, магнитафонами, картинами и вазами....всем тем, что уже давно не нужно, но выкинуть жалко.\r\nТы удивишься, как быстро все вещи найдут счастливых обладателей.",
+    "slug": "otdaj-vse-chem-ty-ne-polzueshsja-i-tochno-ne-budesh-polzovatsja-tem-komu-eto-nuzhno",
+    "in_progress": "PROG",
+    "created_by": 7,
+    "time_created": "2024-06-17T16:24:57.381Z",
+    "time_updated": "2024-06-17T16:59:05.379Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 82,
+  "fields": {
+    "name": "Сыграй в игру детства",
+    "detailed_descr": "Как насчет того, чтобы построить шикарный шалаш? Или порубиться в фишки? А что, если я скажу тебе, что с этой минуты под ногами у тебя плещется обжигающая лава и тебе срочно нужно запрыгивать на диван, в поисках спасения?\r\nПодурачься с друзьями и побудь ребенком;)\r\nВспоминайте любимые игры, заедая их вкусняшками из детства.\r\nА закончить вечер можно с фонариком под одеялом, рассказывая друг другу страшилки или вызывая матерного гномика=)",
+    "slug": "sygraj-v-igru-detstva",
+    "in_progress": "PROG",
+    "created_by": 7,
+    "time_created": "2024-06-17T16:25:14.133Z",
+    "time_updated": "2024-06-17T16:58:53.160Z",
+    "time_to_finish": null,
+    "performers": [
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 83,
+  "fields": {
+    "name": "Сделай доску вдохновения",
+    "detailed_descr": "Размести ее на самом видном месте в комнате, чтобы почаще любоваться и набираться сил на новые творческие подвиги.\r\nЗаполняй ее всем, что нравится: фото, вырезки, распечатки, фантики от конфет и записки.",
+    "slug": "sdelaj-dosku-vdohnovenija",
+    "in_progress": "PROG",
+    "created_by": 7,
+    "time_created": "2024-06-17T16:25:30.093Z",
+    "time_updated": "2024-06-17T16:58:38.928Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 84,
+  "fields": {
+    "name": "Хорошенько высыпайся",
+    "detailed_descr": "Очень нужное и важное дело, которое ты не имеешь права провалить. Конечно, в современном ритме очень сложно ложиться пораньше, но давай сделаем это еще одной твоей чудесной победой?\r\nКроме того, что вставать по утрам станет куда легче и приятнее, у тебя появится больше свободного времени, а так же прекрасный внешний вид;)",
+    "slug": "horoshenko-vysypajsja",
+    "in_progress": "PROG",
+    "created_by": 7,
+    "time_created": "2024-06-17T16:25:43.772Z",
+    "time_updated": "2024-06-17T16:58:27.369Z",
+    "time_to_finish": null,
+    "performers": [
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 85,
+  "fields": {
+    "name": "Наведи порядок в гаджетах",
+    "detailed_descr": "Знакомое чувство, когда не можешь найти нужный файл среди сотни непонятных папок? Или когда заставка рабочего стола едва различима из-за количества иконок?\r\nЕсли ты положительно ответил на эти вопросы, то обязательно посвяти вечер и смело удаляй все ненужное, а оставшееся отсортируй по папкам.",
+    "slug": "navedi-porjadok-v-gadzhetah",
+    "in_progress": "PROG",
+    "created_by": 5,
+    "time_created": "2024-06-17T16:26:12.194Z",
+    "time_updated": "2024-06-17T16:58:21.610Z",
+    "time_to_finish": null,
+    "performers": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 87,
+  "fields": {
+    "name": "Научись готовить 16 новых блюд",
+    "detailed_descr": "У тебя есть целый год, так что не паникуй.\r\nСоветуем выбрать 8 стандартных и 8 необычных рецептов для твоих кулинарных шедевров. Чтобы, когда наступит нужный момент, можно было бы и удивить и быстро накормить.",
+    "slug": "nauchis-gotovit-16-novyh-bljud1",
+    "in_progress": "PROG",
+    "created_by": 5,
+    "time_created": "2024-06-17T16:26:28.427Z",
+    "time_updated": "2024-06-17T16:57:53.166Z",
+    "time_to_finish": null,
+    "performers": [
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 88,
+  "fields": {
+    "name": "Побалуй себя",
+    "detailed_descr": "Сходи на массаж, футбольный матч, устрой шопинг-марафон, попробуй все сорта мороженого в кафе - просто найди повод за что себя наградить и займись тем, что приносит удовольствие.",
+    "slug": "pobaluj-sebja",
+    "in_progress": "PROG",
+    "created_by": 5,
+    "time_created": "2024-06-17T16:26:43.278Z",
+    "time_updated": "2024-06-17T16:57:45.429Z",
+    "time_to_finish": null,
+    "performers": [
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 89,
+  "fields": {
+    "name": "Новое образование",
+    "detailed_descr": "Самое время прислушаться к себе и понять: \"чего же мне хочется уметь?\".\r\nВариантов сотни: рисовать, вязать крючком, играть в хоккей, дрессировать собак, управлять самолетом или снимать кино.....\r\nОстается лишь выбрать и начать обучение.",
+    "slug": "novoe-obrazovanie",
+    "in_progress": "PROG",
+    "created_by": 5,
+    "time_created": "2024-06-17T16:27:08.449Z",
+    "time_updated": "2024-06-17T16:57:36.028Z",
+    "time_to_finish": "2027-02-03T00:00:00Z",
+    "performers": [
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 90,
+  "fields": {
+    "name": "Учи стихотворения или песни",
+    "detailed_descr": "Кроме того, что это занятие улучшает наши артистические и ораторские способности, оно также тренирует нашу память, а еще иногда в гостях можете блеснуть вашим интеллектом. Кто не любит учить стихотворения может выучить любимую песню. И помните, что главное постоянство.",
+    "slug": "uchi-stihotvorenija-ili-pesni",
+    "in_progress": "PROG",
+    "created_by": 5,
+    "time_created": "2024-06-17T16:27:30.250Z",
+    "time_updated": "2024-06-17T16:56:03.706Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 91,
+  "fields": {
+    "name": "Создай специальный список для книг",
+    "detailed_descr": "Включи в него все, что давно хотелось прочесть, а так же книжные новинки) Сделай подборки на разную тематику: учебная, художественная, саморазвитие, творческие дневники)",
+    "slug": "sozdaj-spetsialnyj-spisok-dlja-knig",
+    "in_progress": "PROG",
+    "created_by": 4,
+    "time_created": "2024-06-17T16:28:17.658Z",
+    "time_updated": "2024-06-17T16:55:50.082Z",
+    "time_to_finish": null,
+    "performers": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 92,
+  "fields": {
+    "name": "Позаботься о своем здоровье и пройди диспансеризацию",
+    "detailed_descr": "Чаще всего мы посещаем врача только тогда, когда у нас начинаются проблемы со здоровьем. Вспоминаем поговорку \"предупрежден-значит вооружен\", берем на работе/учебе отгул и хорошенько изучаем свой организм!",
+    "slug": "pozabotsja-o-svoem-zdorove-i-projdi-dispanserizatsiju",
+    "in_progress": "PROG",
+    "created_by": 4,
+    "time_created": "2024-06-17T16:28:35.605Z",
+    "time_updated": "2024-06-17T16:55:40.833Z",
+    "time_to_finish": "2025-03-02T00:00:00Z",
+    "performers": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 93,
+  "fields": {
+    "name": "Найди добрые слова",
+    "detailed_descr": "Для себя, родных, друзей, коллег, прохожих, продавца в магазине или бабушки, торгующей цветами с собственной грядки. Пусть слова будут искренние и подарят улыбки.",
+    "slug": "najdi-dobrye-slova",
+    "in_progress": "PROG",
+    "created_by": 4,
+    "time_created": "2024-06-17T16:28:52.260Z",
+    "time_updated": "2024-06-17T16:55:31.576Z",
+    "time_to_finish": null,
+    "performers": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 94,
+  "fields": {
+    "name": "Напиши историю своей жизни",
+    "detailed_descr": "Начни писать дневник. Купи красивый блокнот и ручку. Начинай писать прямо сейчас. Не знаем о чем писать? Обо всем, что приходит в голову. Прочитай книгу \"Утренние страницы\" Джулии Кэмерони и попробуй вести дневник именно в таком формате.",
+    "slug": "napishi-istoriju-svoej-zhizni",
+    "in_progress": "PROG",
+    "created_by": 4,
+    "time_created": "2024-06-17T16:29:04.926Z",
+    "time_updated": "2024-06-17T16:55:23.365Z",
+    "time_to_finish": null,
+    "performers": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 95,
+  "fields": {
+    "name": "Делай по одной характерной фотографии в месяц",
+    "detailed_descr": "Воспоминания быстро стираются, а если ты сможете запечатлеть то, что для тебя было важно в этот день, то тебе будет что вспомнить позже. Сделай отдельную папку на компьютере или распечатай фотографии и создай фотоальбом в конце года. Кстати, это отличный повод заняться скрапбукингом;)",
+    "slug": "delaj-po-odnoj-harakternoj-fotografii-v-mesjats",
+    "in_progress": "PROG",
+    "created_by": 4,
+    "time_created": "2024-06-17T16:29:21.412Z",
+    "time_updated": "2024-06-17T16:53:48.578Z",
+    "time_to_finish": null,
+    "performers": [
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "task1",
+    "slug": "task1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "task",
+    "slug": "task"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "фото",
+    "slug": "foto"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Писательсво",
+    "slug": "pisatelsvo"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "история",
+    "slug": "istorija"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Любовь",
+    "slug": "ljubov"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "здоровье",
+    "slug": "zdorove"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "книги",
+    "slug": "knigi"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "чтение",
+    "slug": "chtenie"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Книги",
+    "slug": "knigi_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Чтение",
+    "slug": "chtenie_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "образование",
+    "slug": "obrazovanie"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "развлечения",
+    "slug": "razvlechenija"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "кухня",
+    "slug": "kuhnja"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 15,
+  "fields": {
+    "name": "еда",
+    "slug": "eda"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 16,
+  "fields": {
+    "name": "электроника",
+    "slug": "elektronika"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 17,
+  "fields": {
+    "name": "гаджеты",
+    "slug": "gadzhety"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 18,
+  "fields": {
+    "name": "сон",
+    "slug": "son"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 19,
+  "fields": {
+    "name": "вдохновение",
+    "slug": "vdohnovenie"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 20,
+  "fields": {
+    "name": "детство",
+    "slug": "detstvo"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 21,
+  "fields": {
+    "name": "игры",
+    "slug": "igry"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 22,
+  "fields": {
+    "name": "благотворительность",
+    "slug": "blagotvoritelnost"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 23,
+  "fields": {
+    "name": "Вдохновение",
+    "slug": "vdohnovenie_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 24,
+  "fields": {
+    "name": "велосипед",
+    "slug": "velosiped"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 25,
+  "fields": {
+    "name": "активность",
+    "slug": "aktivnost"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 26,
+  "fields": {
+    "name": "музыка",
+    "slug": "muzyka"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 27,
+  "fields": {
+    "name": "знакомтсва",
+    "slug": "znakomtsva"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 28,
+  "fields": {
+    "name": "писательство",
+    "slug": "pisatelstvo"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 29,
+  "fields": {
+    "name": "привычки",
+    "slug": "privychki"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 30,
+  "fields": {
+    "name": "курение",
+    "slug": "kurenie"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 31,
+  "fields": {
+    "name": "семья",
+    "slug": "semja"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 32,
+  "fields": {
+    "name": "навыки",
+    "slug": "navyki"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 33,
+  "fields": {
+    "name": "Кухня",
+    "slug": "kuhnja_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 34,
+  "fields": {
+    "name": "город",
+    "slug": "gorod"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 35,
+  "fields": {
+    "name": "прогулки",
+    "slug": "progulki"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 36,
+  "fields": {
+    "name": "йога",
+    "slug": "joga"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 37,
+  "fields": {
+    "name": "Здоровье",
+    "slug": "zdorove_1"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 95
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 94
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 94
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 93
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 92
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 91
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 91
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 90
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 90
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 89
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 13,
+    "content_type": 7,
+    "object_id": 88
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 14,
+    "content_type": 7,
+    "object_id": 87
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 15,
+    "content_type": 7,
+    "object_id": 87
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 85
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 17,
+    "content_type": 7,
+    "object_id": 85
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 18,
+    "content_type": 7,
+    "object_id": 84
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 83
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 20,
+    "content_type": 7,
+    "object_id": 82
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 21,
+    "content_type": 7,
+    "object_id": 82
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 22,
+    "content_type": 7,
+    "object_id": 81
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 23,
+  "fields": {
+    "tag": 23,
+    "content_type": 7,
+    "object_id": 80
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 24,
+  "fields": {
+    "tag": 24,
+    "content_type": 7,
+    "object_id": 79
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 25,
+  "fields": {
+    "tag": 25,
+    "content_type": 7,
+    "object_id": 79
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 26,
+  "fields": {
+    "tag": 26,
+    "content_type": 7,
+    "object_id": 78
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 27,
+  "fields": {
+    "tag": 27,
+    "content_type": 7,
+    "object_id": 77
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 28,
+  "fields": {
+    "tag": 28,
+    "content_type": 7,
+    "object_id": 77
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 29,
+  "fields": {
+    "tag": 29,
+    "content_type": 7,
+    "object_id": 76
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 30,
+  "fields": {
+    "tag": 30,
+    "content_type": 7,
+    "object_id": 76
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 31,
+  "fields": {
+    "tag": 31,
+    "content_type": 7,
+    "object_id": 75
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 32,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 74
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 33,
+  "fields": {
+    "tag": 32,
+    "content_type": 7,
+    "object_id": 73
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 34,
+  "fields": {
+    "tag": 33,
+    "content_type": 7,
+    "object_id": 72
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 35,
+  "fields": {
+    "tag": 15,
+    "content_type": 7,
+    "object_id": 72
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 36,
+  "fields": {
+    "tag": 34,
+    "content_type": 7,
+    "object_id": 71
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 37,
+  "fields": {
+    "tag": 35,
+    "content_type": 7,
+    "object_id": 71
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 38,
+  "fields": {
+    "tag": 36,
+    "content_type": 7,
+    "object_id": 70
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 39,
+  "fields": {
+    "tag": 37,
+    "content_type": 7,
+    "object_id": 70
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 40,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 74
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 41,
+  "fields": {
+    "tag": 28,
+    "content_type": 7,
+    "object_id": 74
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 43,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 73
+  }
+}
+]

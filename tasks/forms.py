@@ -24,11 +24,14 @@ class TaskForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         user = kwargs.pop('user') if 'user' in kwargs else None
-        super().__init__(*args, **kwargs)
+        update = kwargs.pop('update') if 'update' in kwargs else None
+        super(TaskForm, self).__init__(*args, **kwargs)
+
         if user:
             self.fields['performers'].queryset = get_user_model().objects.exclude(pk=user.pk)
         else:
             self.fields['performers'].queryset = get_user_model().objects.all()
         self.fields['performers'].label_from_instance = lambda obj: f"{obj.first_name} {obj.last_name}"
 
-
+        if update:
+            self.fields['performers'].label = 'Performers'

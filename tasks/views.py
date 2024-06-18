@@ -55,6 +55,11 @@ class UpdateTaskView(LoginRequiredMixin, UpdateView):
     template_name = 'tasks/update_task.html'
     form_class = TaskForm
 
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        kwargs['update'] = True
+        return kwargs
+
 
 class TaskView(LoginRequiredMixin, DetailView):
     model = Task
